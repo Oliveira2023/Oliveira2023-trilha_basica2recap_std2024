@@ -8,7 +8,7 @@ public class Main {
     // Função para calcular o consumo total de dados móveis
     public static int calcularConsumoTotal(String[] consumoSemanal) {
 
-        // TODO: Calcule o consumo total de dados móveis
+        // Calcule o consumo total de dados móveis
         int total = Arrays.stream(consumoSemanal).mapToInt(x -> Integer.parseInt(x)).sum();
 
         return total;
