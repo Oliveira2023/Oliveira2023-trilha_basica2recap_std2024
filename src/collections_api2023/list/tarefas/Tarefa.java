@@ -1,4 +1,4 @@
-package collections_api2023.list;
+package collections_api2023.list.tarefas;
 
 public class Tarefa {
     private String descricao;

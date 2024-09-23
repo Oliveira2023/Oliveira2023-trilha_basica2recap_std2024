@@ -1,4 +1,4 @@
-package collections_api2023.carrinho_compras;
+package collections_api2023.list.carrinho_compras;
 
 public class Mercado {
 
