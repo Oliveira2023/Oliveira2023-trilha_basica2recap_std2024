@@ -7,12 +7,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Leitura da primeira linha de entrada
+        System.out.println("Digite o primeiro valor:");
         String[] entrada1 = scanner.nextLine().trim().split(",");
         double[] valoresServicos = Arrays.stream(entrada1)
                 .mapToDouble(Double::parseDouble)
                 .toArray();
 
         // Leitura da segunda linha de entrada
+        System.out.println("Digite o segundo valor:");
         String[] entrada2 = scanner.nextLine().trim().split(",");
         double[] descontos = Arrays.stream(entrada2)
                 .mapToDouble(Double::parseDouble)
